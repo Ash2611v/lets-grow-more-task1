@@ -1,7 +1,7 @@
 :root {
-	--dark: #374151;
+	--dark: #ffffff;
 	--darker: #1F2937;
-	--darkest: #111827;
+	--darkest: #161e2f9d;
 	--grey: #6B7280;
 	--pink: #EC4899;
 	--purple: #8B5CF6;
@@ -32,8 +32,7 @@ header {
 header h1 {
 	font-size: 2.5rem;
 	font-weight: 400;
-	/* color: var(--grey); */
-	color: white;
+	color: rgb(0, 0, 0);
 	text-shadow: 1px #FFF;
 	text-decoration: underline;
 	margin-bottom: 1rem;
@@ -99,7 +98,7 @@ main {
 .task-list h2 {
 	font-size: 1.5rem;
 	font-weight: 300;
-	color: var(--grey);
+	color: #111827;
 	margin-bottom: 1rem;
 }
 
